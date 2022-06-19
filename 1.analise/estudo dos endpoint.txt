@@ -1,0 +1,10 @@
+/get   /hero/:nome
+
+response
+[{
+
+"nome":"",
+"poder":"",
+"voa": false,
+
+}] 

@@ -1,11 +1,10 @@
-import  'dotenv/config'
-
-import express from 'express'
-import cors from 'cors'
-
+import "dotenv/config"
+import express from "express"
+import cors from "cors"
+import controller from "./controller/controllerheroi.js"
 
 const server = express();
-
+server.use(controller);
 server.use(cors());
 server.use(express.json());
 

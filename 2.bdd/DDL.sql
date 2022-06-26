@@ -1,4 +1,5 @@
 create database super_hero;
+
 use super_hero;
 
 create table tb_super_hero(

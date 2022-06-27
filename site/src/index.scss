@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page{
+  header {
+    display: flex;
+    align-items: center;
+
+    height: 6em;
+    background-color: #fff;
+  }
+
+  main {
+    padding: 3em;
+    padding-top: 1em;
+  }
+
+
+  .titulo {
+    font: 600 22px 'Inter';
+    color: #646464;
+  }
+  .titulo span {
+    background-color: #A028E6;
+    border-radius: 20px;
+    display: inline-block;
+    width: 5px;
+  }
+
+  .subtitulo {
+    color: #646464;
+    font-size: 1.2em;
+  }
+  }

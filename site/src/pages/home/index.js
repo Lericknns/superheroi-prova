@@ -1,17 +1,10 @@
 import './index.scss'
-import { BuscarHeroi,todosHerois } from '../../api/heroiapi'
-import {useEffect, useState } from 'react'
+import { BuscarHeroi } from '../../api/heroiapi'
+
 export default function Index() {
 
-async function todosOHerois(){
-const resp = await todosOHerois();
-setHeroi(resp);
 
-UseEffect(() =>{            
-todosOHerois();
-        },[])
-
-const[heroi, setHeroi] = UseState([]);
+const[setHeroi] = UseState([]);
 const[nome, setNome] = UseState('');
 
 async function Nome(){
@@ -35,4 +28,4 @@ return (
      </main>
 
     )
-}}
+}
